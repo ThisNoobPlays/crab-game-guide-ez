@@ -1,0 +1,47 @@
+
+.title-bar{
+    background-color: gray;
+    margin: 0;
+    padding:10px;
+    color: white;
+    padding-left:60px;
+
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;;
+    background-color: lightgray;
+    padding-left: 50px;
+}
+
+.navbar li {
+    display: inline;
+    padding-right:20px;
+}
+
+.navbar li a{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar li a:hover{
+    background-color: rgb(143, 143, 143);
+}
+
+.content {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+}
