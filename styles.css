@@ -1,32 +1,31 @@
-
-.title-bar{
+.title-bar {
     background-color: gray;
     margin: 0;
-    padding:10px;
+    padding: 10px;
     color: white;
-    padding-left:60px;
-
+    padding-left: 60px;
 }
 
-body{
+body {
     margin: 0;
     font-family: sans-serif;
 }
 
-.navbar{
+.navbar {
     list-style-type: none;
     margin: 0;
-    padding: 10px;;
+    padding: 10px;
+    ;
     background-color: lightgray;
     padding-left: 50px;
 }
 
 .navbar li {
     display: inline;
-    padding-right:20px;
+    padding-right: 20px;
 }
 
-.navbar li a{
+.navbar li a {
     color: white;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -34,7 +33,7 @@ body{
     padding-right: 10px;
 }
 
-.navbar li a:hover{
+.navbar li a:hover {
     background-color: rgb(143, 143, 143);
 }
 
@@ -43,5 +42,63 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    max-width: 800px;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
     max-width: 500px;
+    margin: auto;
+}
+
+figcaption {
+    font: italic medium sans-serif;
+    padding: 5px;
+}
+
+.li-exclude-style {
+    list-style: none;
+    padding-top: 5px;
+}
+
+li {
+    padding: 3px;
+}
+
+.video-frame {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 500px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin: 30px;
+    margin-bottom: 60px;
+}
+
+.download-frame {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    max-width: 500px;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    margin: 30px;
+    margin-bottom: 60px;
+}
+
+.download-frame a {
+    margin-bottom: 25px;
 }
