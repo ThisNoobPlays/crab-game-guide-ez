@@ -24,11 +24,25 @@
         <div>
             <h1>Performance Optimization</h1>
             <p>In order to have the best competitive advantage, you need to ensure your game is running smoothly and with minimal lag. </p>
-            <p>In this article, I will show you some things that you can do to improve game performance.
+            <p>In this article, I will show you some things that you can do to improve game performance, and I recommend you do all of them to have the best performance.
 
             </p>
             <h2>In-Game Graphics Settings</h2>
-            <p>If you haven't touched the graphics settings already, just set everything to its lowest option. </p>
+            <p>The most direct way to improve your performance is just to set all the graphics options to their lowest options, which will reduce the load on your GPU and increase your
+                <a href="https://en.wikipedia.org/wiki/Frame_rate">FPS</a>.</p>
+            <p>If you think the graphics look too bad, just incrementally increase the graphics settings until you strike a good quality-to-performance balance.</p>
+            <h2>Forcing DirectX 12 (Windows only)</h2>
+            <p>If you play on Windows, Crab Game defaults to using the DirectX 11 rendering engine. However, if your Windows and graphics drivers are of the latest version, you can force the game to use DirectX 12, bringing about a significant FPS boost.</p>
+            <p>If you have not updated your Windows or your
+                <a href="https://www.howtogeek.com/135976/how-to-update-your-graphics-drivers-for-maximum-gaming-performance/">graphics drivers</a>, do this before proceeding.</p>
+            <ol>
+                <li>Open Steam</li>
+                <li>Go to "Library" at the top</li>
+                <li>On the left, find the Crab Game entry, right click it, and click "Properties"</li>
+                <li>Where it says Launch Options, type in exactly (without the quotes) : "-force-d3d12"</li>
+                <li>Relaunch the game</li>
+            </ol>
+            <p>You should see a marked performance boost. If your game crashes or experiences problems, just get rid of the text in the launch options section.</p>
         </div>
     </div>
 </body>
